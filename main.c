@@ -259,6 +259,27 @@ https://habrahabr.ru/post/55665/
 
 */
 
+/*
+…or create a new repository on the command line
+
+echo "# vdd" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/kaljan/vdd.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/kaljan/vdd.git
+git push -u origin master
+
+…or import code from another repository
+
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <errno.h>
